@@ -9,25 +9,6 @@
   - utter_ask_card
   - submit
 
-## ask_info
-* greet
-  - greeting
-* ask_tuition 
-  - get_score_tuition
-* my_name    
-  - utter_ask_name
-* num_card
-  - utter_ask_card
-  - submit
-
-## ask_ex
-* ask_tuition 
-  - get_score_tuition
-* my_name    
-  - utter_ask_name
-* num_card
-  - utter_ask_card
-  - submit 
 
 ## ask
 * ask_score 

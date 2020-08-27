@@ -9,7 +9,6 @@ intents:
 - mood_great
 - mood_unhappy
 - bot_challenge
-- ask_tuition
 - ask_score
 - my_name
 - num_card
@@ -17,7 +16,6 @@ entities:
 - name
 - card
 - score
-- tution
 slots:
   card:
     type: text
@@ -25,13 +23,12 @@ slots:
     type: text
   score:
     type: text
-  tution:
-    type: text
 responses:
   utter_ask_name:
-  - text: đã nhận được tên {name}. Xin cung cấp thêm số chứng minh nhân dân ?
+  - text: đã nhận được mã số sinh viên {name}. Xin cung cấp thêm số chứng minh nhân
+      dân ?
   utter_ask_card:
-  - text: đã nhận được tên {name} và số chứng minh nhân dân {card}
+  - text: đã nhận được mã số sinh viên {name} và số chứng minh nhân dân {card}
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Đây ! có lẽ nó sẽ mang đến điều thú vị cho bạn:'

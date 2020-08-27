@@ -1,10 +1,3 @@
-## intent:ask_tuition
-- [xem học phí](tution)
-- cho cô [xem học phí](tution) của con cô
-- cho em [xem học phí](tution)
-- cho tui [xem học phí](tution) của con tui
-- cho [xem học phí](tution) đã đóng 
-- cho [xem học phí](tution)
 
 ## intent:ask_score 
 - [xem điểm](score) 
@@ -12,17 +5,24 @@
 - cho bác [xem điểm](score) của con bác
 - cho em [xem điểm](score)
 - cho tui [xem điểm](score) của con tui
-- cho [xem điểm](score) đã đóng 
+- cho [xem điểm](score) cua con toi 
 - cho [xem điểm](score)
 
+
 ## intent:my_name
-- tôi tên là [Nguyễn văn Linh](name)
-- con tôi tên là [nguyễn tiến tài](name)
-- tên là [Dưa hấu](name)
+- mã số sinh viên là [Nguyễn văn Linh](name)
+- con tôi có mã số sinh viên là [nguyễn tiến tài](name)
+- mã số sinh viên là [Dưa hấu](name)
 - [trong em](name)
 - [vo van khanh](name)
-- toi ten la [gia các khát](name)
-- con toi ten la [Dương văn Minh](name) 
+- ma so sinh vien la [gia các khát](name)
+- con toi ma so sinh vien la [Dương văn Minh](name) 
+- mã số sinh viên là [A182657](name)
+- con tôi có mã số sinh viên là [A170248](name)
+- mã số sinh viên là [A1602487](name)
+- [A160985](name)
+- [Tuong Lam](name)
+ 
 
 ## intent:num_card
 - số cmnd là [21635131](card)
